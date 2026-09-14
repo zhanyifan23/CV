@@ -1,11 +1,11 @@
 const portfolioItems = [
   {
-    title: '梦境样本 No.01',
+    title: 'A DREAM NO.03',
     author: '张一帆',
     year: '2017',
     medium: '油画',
     category: '绘画',
-    image: 'https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=1200&q=85',
+    image: 'assets/A-dream-NO.03.JPG',
     description: '以梦境与潜意识为线索的绘画实验，尝试将记忆中不稳定的空间转译为可感知的色彩结构。',
     location: '个人工作室 · 西安'
   },
@@ -15,7 +15,7 @@ const portfolioItems = [
     year: '2023',
     medium: '公共艺术',
     category: '空间',
-    image: 'https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=1200&q=85',
+    image: 'assets/《butterfly》03.jpg',
     description: '关中村落公共艺术空间营建项目，以日常材料回应村庄的风向、记忆与社区关系。',
     location: '关中忙罢艺术节'
   },
@@ -25,7 +25,7 @@ const portfolioItems = [
     year: '2022',
     medium: '策展项目',
     category: '策展',
-    image: 'https://images.unsplash.com/photo-1561839561-b13bcfe95249?auto=format&fit=crop&w=1200&q=85',
+    image: 'assets/A-dream-NO.07.jpg',
     description: '围绕观看、身体和展览空间展开的青年艺术家群展，包含装置、影像与现场行动。',
     location: '西安 · 当代艺术机构'
   },
