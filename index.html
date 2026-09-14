@@ -107,21 +107,24 @@
     </section>
 
     <section id="projects" class="container section reveal">
-      <h2>学术成果与参展</h2>
-      <div class="grid-cards">
-        <div class="card project">
-          <h4>论文与科研</h4>
-          <p>《论油画以及艺术作品的美感体验》（2020）、《女性主义艺术的个案分析之弗里达・卡洛》（2021）等国家级期刊发表，参与西安美术学院国家级科创项目。</p>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SELECTED WORKS · 作品档案</p>
+          <h2>动态作品集</h2>
         </div>
-        <div class="card project">
-          <h4>作品与展出</h4>
-          <p>作品曾在《艺术大观》、北京 798、陕西省美术博物馆等机构展出，入选青年艺术家联展。</p>
-        </div>
-        <div class="card project">
-          <h4>获奖与其他</h4>
-          <p>论文奖励与工作坊主理经验。曾获“全国基础教育类文章评比”一等奖。</p>
-        </div>
+        <p class="section-note">按媒介筛选，点击卡片查看完整作品信息。</p>
       </div>
+      <div class="portfolio-toolbar" aria-label="作品筛选">
+        <div id="portfolio-filters" class="filter-list" role="group" aria-label="按类别筛选"></div>
+        <span id="portfolio-count" class="portfolio-count" aria-live="polite"></span>
+      </div>
+      <div id="portfolio-grid" class="portfolio-grid" aria-live="polite"></div>
+      <div id="portfolio-empty" class="portfolio-empty" hidden>暂无符合条件的作品。</div>
+      <dialog id="portfolio-dialog" class="portfolio-dialog">
+        <button class="dialog-close" type="button" aria-label="关闭作品详情">×</button>
+        <div id="portfolio-detail"></div>
+      </dialog>
+      <noscript>请开启 JavaScript 以查看动态作品集。</noscript>
     </section>
 
     <section id="contact" class="container section reveal contact-section">
