@@ -13,31 +13,91 @@ const portfolioItems = [
     title: 'A DREAM',
     author: '张一帆',
     year: '2023',
-    medium: '公共艺术',
-    category: '空间',
+    medium: '油画',
+    category: '绘画',
     image: 'assets/《butterfly》03.jpg',
-    description: '关中村落公共艺术空间营建项目，以日常材料回应村庄的风向、记忆与社区关系。',
-    location: '关中忙罢艺术节'
+    description: '以身体经验和空间记忆为起点，描绘现实与梦境交叠时的片段化感知。',
+    location: '个人工作室 · 西安'
   },
   {
-    title: '观看的练习',
+    title: 'BUTTERFLY',
     author: '张一帆',
     year: '2022',
-    medium: '策展项目',
-    category: '策展',
-    image: 'assets/A-dream-NO.07.jpg',
-    description: '围绕观看、身体和展览空间展开的青年艺术家群展，包含装置、影像与现场行动。',
+    medium: '油画',
+    category: '绘画',
+    image: 'assets/《蝴蝶butterfly》02.JPG',
+    description: '以蝴蝶作为关于变化与观看的隐喻，探索轻盈形体背后的心理张力。',
     location: '西安 · 当代艺术机构'
   },
   {
     title: '潜意识的边界',
     author: '张一帆',
     year: '2021',
-    medium: '研究文章',
-    category: '研究',
-    image: 'https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=1200&q=85',
+    medium: '油画',
+    category: '绘画',
+    image: 'assets/《A dream NO.01》.JPG',
     description: '从女性主义艺术个案出发，讨论绘画中的主体经验、凝视与个人叙事。',
-    location: '学术发表 · 2021'
+    location: '个人工作室 · 西安'
+  },
+  {
+    title: '梦境切片 I',
+    author: '张一帆',
+    year: '2020',
+    medium: '油画',
+    category: '绘画',
+    image: 'assets/A-dream-NO.07.jpg',
+    description: '将梦中反复出现的空间切分为色块与线索，保留记忆尚未稳定的瞬间。',
+    location: '个人工作室 · 西安'
+  },
+  {
+    title: '观看之后',
+    author: '张一帆',
+    year: '2019',
+    medium: '油画',
+    category: '绘画',
+    image: 'assets/A-dream-NO.03.JPG',
+    description: '关于凝视发生之后的残影研究，尝试让画面停留在可辨认与不可辨认之间。',
+    location: '个人工作室 · 西安'
+  },
+  {
+    title: '隐秘花园',
+    author: '张一帆',
+    year: '2018',
+    medium: '油画',
+    category: '绘画',
+    image: 'assets/《蝴蝶butterfly》02.JPG',
+    description: '以植物、身体和封闭场域构成隐秘叙事，回应个人经验中的生长与回返。',
+    location: '西安 · 工作室计划'
+  },
+  {
+    title: '未命名的醒来',
+    author: '张一帆',
+    year: '2018',
+    medium: '油画',
+    category: '绘画',
+    image: 'assets/《A dream NO.01》.JPG',
+    description: '记录从梦境醒来时仍未消散的视觉碎片，研究清醒状态中的潜意识回声。',
+    location: '个人工作室 · 西安'
+  },
+  {
+    title: '漂浮的房间',
+    author: '张一帆',
+    year: '2017',
+    medium: '油画',
+    category: '绘画',
+    image: 'assets/A-dream-NO.07.jpg',
+    description: '以漂浮的室内结构承载关于居所、身份与不确定性的个人叙事。',
+    location: '个人工作室 · 西安'
+  },
+  {
+    title: '梦的回声',
+    author: '张一帆',
+    year: '2016',
+    medium: '油画',
+    category: '绘画',
+    image: 'assets/《butterfly》03.jpg',
+    description: '早期梦境主题绘画练习，以层叠色彩和模糊边界寻找内在经验的回声。',
+    location: '西安 · 早期创作'
   }
 ];
 
