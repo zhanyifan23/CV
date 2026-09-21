@@ -1,30 +1,43 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>张一帆 · 艺术实践档案</title>
+  <title>Maggie Zhang · Curator & Art Researcher</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;500;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
+  <nav class="site-nav container" aria-label="Primary navigation">
+    <a class="brand-mark" href="#top" aria-label="Maggie Zhang home">MZ<span>/</span>26</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#academic-achieve">Archive</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <header id="top" class="hero">
     <div class="container hero-inner">
       <div class="intro">
-        <h1 class="name">张一帆</h1>
-        <p class="lead">策展人 | 当代艺术研究者 | 项目执行与乡村艺术振兴推动者</p>
-        <p class="meta">个人简历网站 · 静态展示</p>
+        <p class="hero-kicker">01 / GLOBAL MATERIAL CULTURE</p>
+        <h1 class="name">Maggie<br><em>Yifan Zhang</em></h1>
+        <p class="lead">Maggie Zhang, curator, young artist and oil‑painting creator. Drawing on oil‑painting practice and an interdisciplinary background in art‑tech and business, focuses on museum curation, site‑specific rural public‑art projects and contemporary‑art academic research. Experienced in special exhibitions, international art exchanges and community co‑creation, devotes myself to promoting art communication, public art education and art‑driven urban development.</p>
+        <p class="meta">MAGGIE ZHANG · CURATOR / RESEARCHER / PRODUCER</p>
         <div class="contact">
-          <a href="#contact" class="btn">联系我</a>
-          <a href="#projects" class="btn btn-ghost">作品/项目</a>
+          <a href="#academic-achieve" class="btn">Explore archive <span aria-hidden="true">↗</span></a>
+          <a href="portfolio.html" class="btn btn-ghost">Art works</a>
         </div>
       </div>
-      <div class="hero-art">
-        <svg class="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
-          <path fill="#fff" fill-opacity="1" d="M0,224L48,224C96,224,192,224,288,208C384,192,480,160,576,133.3C672,107,768,85,864,80C960,75,1056,85,1152,122.7C1248,160,1344,224,1392,256L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
-        </svg>
+      <div class="hero-stage" aria-label="Interactive material network visualization">
+        <div class="stage-grid"></div>
+        <div id="globe" class="globe" role="img" aria-label="Interactive material network globe. Drag to rotate.">
+          <canvas id="globe-canvas"></canvas>
+          <span class="globe-cursor-hint">DRAG TO ROTATE</span>
+        </div>
+        <div class="stage-label stage-label-top">MATERIAL<br>NETWORK / 26</div>
+        <div class="stage-label stage-label-bottom">LAT 34.26° N<br>LON 108.94° E</div>
       </div>
     </div>
   </header>
@@ -33,34 +46,34 @@
     <section id="about" class="container section reveal">
       <div class="grid-two">
         <div>
-          <h2>教育背景</h2>
+          <h2>Education</h2>
           <div class="card" aria-hidden="false">
             <table class="edu-table">
               <thead>
-                <tr><th>时间</th><th>学历</th><th>方向 / 说明</th></tr>
+                <tr><th>Period</th><th>Degree</th><th>Institution / Focus</th></tr>
               </thead>
               <tbody>
-                <tr><td>2026.09 – 2027.07</td><td>硕士</td><td>查漏补缺艺术与科技和商业的交互领域，进一步为个人专业水平做增量</td></tr>
-                <tr><td>2017.09 – 2021.06</td><td>硕士</td><td>主攻当代艺术方向油画作品创作，个人研究方向为梦境与潜意识的画面表现</td></tr>
-                <tr><td>2013.09 – 2017.06</td><td>学士</td><td>系统性专业学习理论及实践，为艺术领域后续发展打下坚实基础</td></tr>
+                <tr><td>Sep 2026 – Jul 2027</td><td>MA</td><td>Lingnan University · Arts Technology and Business</td></tr>
+                <tr><td>Sep 2017 – Jun 2021</td><td>MA</td><td>Xi'an Academy of Fine Arts · Contemporary Oil Painting</td></tr>
+                <tr><td>Sep 2013 – Jun 2017</td><td>BA</td><td>Xi'an Academy of Fine Arts · Contemporary Oil Painting</td></tr>
               </tbody>
             </table>
           </div>
         </div>
         <div>
-          <h2>技能与特长</h2>
+          <h2>Capabilities</h2>
           <div class="skills">
             <div class="skill">
-              <h3>策展与项目管理</h3>
-              <p>大型展览策划、流程管理、对外合作与学术策划能力。</p>
+              <h3>Curatorial direction</h3>
+              <p>Permanent, special and international exhibitions across installation, video, interactive art and traditional easel painting.</p>
             </div>
             <div class="skill">
-              <h3>艺术研究</h3>
-              <p>艺术史、当代艺术研究、文本与作品分析、写作与学术发表经验。</p>
+              <h3>Academic exchange</h3>
+              <p>Academic exhibition-making, symposia, artist relations and China-international cultural exchange.</p>
             </div>
             <div class="skill">
-              <h3>社区与乡村艺术实践</h3>
-              <p>乡村场域项目落地、公共艺术营建与社会协同。</p>
+              <h3>Place-based practice</h3>
+              <p>Rural public art, community co-creation, local partnerships and art-empowered revitalisation.</p>
             </div>
           </div>
         </div>
@@ -68,16 +81,16 @@
     </section>
 
     <section id="experience" class="container section reveal">
-      <h2>工作 / 项目经历</h2>
+      <h2>Work Experience</h2>
       <div class="timeline">
         <article class="timeline-item">
           <div class="time">2021.10 – 2026.05</div>
           <div class="content">
-            <h3>策展与项目执行（机构）</h3>
+            <h3>Xi'an Art Museum <span class="role-label">— Curator</span></h3>
             <ul>
-              <li>策划及落地 <strong>72 场</strong>常设展、特展及国内外交流展，媒介涵盖装置、影像、交互艺术与油画。</li>
-              <li>其中 <strong>28 场</strong>重点学术展览、<strong>6 场</strong>国际交流展、<strong>21 场</strong>学术交流研讨会。</li>
-              <li>策划并持续推进青年艺术家推广项目，带来长期学术与社会影响力。</li>
+              <li>Curated and delivered <strong>72</strong> permanent, special and international exhibitions spanning installation, video, interactive art and traditional easel painting.</li>
+              <li>Led <strong>28</strong> major academic and <strong>6</strong> international exchange exhibitions; organised <strong>21</strong> academic symposia.</li>
+              <li>Promoted China-international art exchange and contemporary art in Northwest China; launched a two-year emerging-artist exhibition programme.</li>
             </ul>
           </div>
         </article>
@@ -85,11 +98,13 @@
         <article class="timeline-item">
           <div class="time">2018.06 – 2025.06</div>
           <div class="content">
-            <h3>关中忙罢艺术节（项目策划/执行）</h3>
+            <h3>Guanzhong Mangba Art Festival <span class="role-label">— Planning &amp; Execution</span></h3>
             <ul>
-              <li>累计举办 <strong>200 余场</strong>在地艺术、影像、戏剧、社区类活动。</li>
-              <li>营建 <strong>27 处</strong>乡村公共艺术空间，邀请 <strong>千余名</strong>艺术家驻村创作。</li>
-              <li>带动村内 <strong>200 余人</strong>就业，年旅游综合收入超 <strong>1400 万元</strong>，获评全国基层公共文化典型案例。</li>
+              <li>Co-planned and executed the festival, anchored in Caijiapo Village in the Qinling Mountains, over seven years.</li>
+              <li>Organised <strong>200+</strong> site-specific art, video, theatre and community co-creation activities.</li>
+              <li>Built <strong>27</strong> rural public art spaces and hosted <strong>1,000+</strong> artists in residence.</li>
+              <li>Mobilised universities, local government and villagers; created <strong>200+</strong> local jobs and RMB <strong>14M+</strong> annual tourism revenue.</li>
+              <li>Recognised as a national model of grassroots public culture and a benchmark for art-empowered rural revitalisation; visited by art professionals from home and abroad.</li>
             </ul>
           </div>
         </article>
@@ -97,50 +112,58 @@
         <article class="timeline-item">
           <div class="time">2017.09 – 2021.07</div>
           <div class="content">
-            <h3>在校经历（学生会 / 外联）</h3>
+            <h3>Xi'an Academy of Fine Arts <span class="role-label">— Student Union &amp; External Relations</span></h3>
             <ul>
-              <li>学生会副主席与外联部部长，全流程负责与著名艺术家合作的四场学术月工作坊项目策划与落地。</li>
+              <li>Vice President of the Student Union and Head of External Relations; managed end-to-end planning and delivery of four Academic Month workshops with artists Yi Rui, Fang Lijun, Leng Jun and Duan Zhengqu.</li>
             </ul>
           </div>
         </article>
       </div>
     </section>
 
-    <section id="projects" class="container section reveal">
+    <section id="academic-achieve" class="container section reveal academic-section">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">SELECTED WORKS · 作品档案</p>
-          <h2>动态作品集</h2>
+          <p class="eyebrow">RESEARCH · PUBLICATIONS · EXHIBITIONS</p>
+          <h2>Academic Achieve</h2>
         </div>
-        <p class="section-note">按媒介筛选，点击卡片查看完整作品信息。</p>
+        <p class="section-note">Selected academic, publishing, exhibition and educational achievements.</p>
       </div>
-      <div class="portfolio-toolbar" aria-label="作品筛选">
-        <div id="portfolio-filters" class="filter-list" role="group" aria-label="按类别筛选"></div>
-        <span id="portfolio-count" class="portfolio-count" aria-live="polite"></span>
+      <div class="achievement-list">
+        <article class="achievement-item"><time datetime="2020">2020</time><p>Published <em>On the Aesthetic Experience of Oil Painting and Artworks</em> in China Teachers</p></article>
+        <article class="achievement-item"><time datetime="2020">2020</time><p>Co-completed national project <em>On the Road to a Well-off Society</em> with Prof. Liang Hongli</p></article>
+        <article class="achievement-item"><time datetime="2021">2021</time><p>Published <em>Feminist Art: A Case Study of Frida Kahlo</em> in Fenghui</p></article>
+        <article class="achievement-item"><time datetime="2021">2021</time><p>Graduate thesis <em>The Expression and Influence of Dreams in Oil Painting</em> on CNKI</p></article>
+        <article class="achievement-item"><time datetime="2021">2021</time><p>Oil painting <em>The Road to Happiness</em> in Art Panorama</p></article>
+        <article class="achievement-item"><time datetime="2021">2021</time><p>Exhibited in the <em>Red Spirit · Splendid Weinan</em> series, Weinan, Shaanxi</p></article>
+        <article class="achievement-item"><time datetime="2020">2020</time><p>First Prize, National Basic Education Article Competition</p></article>
+        <article class="achievement-item"><time datetime="2019">2019</time><p>Oil painting <em>Escape</em> in <em>The Power of Tragedy</em> exhibition, 798 Art Centre, Beijing</p></article>
+        <article class="achievement-item"><time datetime="2019">2019</time><p>Led artist Duan Zhengqu's <em>Paper-based Painting</em> workshop in Graduate Academic Month</p></article>
+        <article class="achievement-item"><time datetime="2018">2018</time><p>Oil painting <em>Ru Yan</em> in the 7th <em>Plateau</em> National Touring Exhibition, Shaanxi</p></article>
+        <article class="achievement-item"><time datetime="2018">2018</time><p>Oil paintings in <em>Reflexivity II – Young Artists Exhibition</em>, 798 Art District, Beijing</p></article>
       </div>
-      <div id="portfolio-grid" class="portfolio-grid" aria-live="polite"></div>
-      <div id="portfolio-empty" class="portfolio-empty" hidden>暂无符合条件的作品。</div>
-      <dialog id="portfolio-dialog" class="portfolio-dialog">
-        <button class="dialog-close" type="button" aria-label="关闭作品详情">×</button>
-        <div id="portfolio-detail"></div>
-      </dialog>
-      <noscript>请开启 JavaScript 以查看动态作品集。</noscript>
     </section>
 
     <section id="contact" class="container section reveal contact-section">
-      <h2>联系方式</h2>
+      <div class="contact-heading">
+        <img class="contact-portrait" src="maggie.jpg" alt="Portrait of Maggie Zhang">
+        <div>
+          <p class="eyebrow">GET IN TOUCH · MAGGIE ZHANG</p>
+          <h2>Contact</h2>
+        </div>
+      </div>
       <div class="contact-grid">
         <div class="card">
-          <h3>邮件</h3>
-          <p><a href="mailto:zhangyifan@example.com">zhangyifan@example.com</a></p>
+          <h3>Email</h3>
+          <p><a href="mailto:m18829011182@163.com">m18829011182@163.com</a></p>
         </div>
         <div class="card">
-          <h3>地点</h3>
-          <p>中国 · 陕西</p>
+          <h3>Phone</h3>
+          <p>+86 188 2901 1182<br>+852 98803357</p>
         </div>
         <div class="card">
-          <h3>更多</h3>
-          <p>可提供作品集与项目简案（按需发送）。</p>
+          <h3>Languages</h3>
+          <p>IELTS 6.0 · Cantonese: daily communication · Mandarin, Shaanxi, Henan &amp; Northeast dialects</p>
         </div>
       </div>
     </section>
@@ -148,10 +171,11 @@
 
   <footer class="footer">
     <div class="container">
-      <p>© 张一帆 · 个人简历 · 静态站点</p>
+      <p>© Maggie Zhang · Curriculum Vitae · Static portfolio</p>
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
