@@ -103,6 +103,7 @@ const portfolioItems = [
 
 document.addEventListener('DOMContentLoaded', () => {
   initGlobe();
+  initButterflyFollower();
 
   // 平滑滚动 for internal links
   document.querySelectorAll('a[href^="#"]').forEach(a => {
@@ -228,6 +229,32 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+function initButterflyFollower() {
+  const butterfly = document.getElementById('butterfly-cursor');
+  if (!butterfly) return;
+
+  let targetX = 0;
+  let targetY = 0;
+  let currentX = 0;
+  let currentY = 0;
+  const ease = 0.08;
+
+  document.addEventListener('mousemove', event => {
+    targetX = event.clientX - 50;
+    targetY = event.clientY - 50;
+  });
+
+  const animate = () => {
+    currentX += (targetX - currentX) * ease;
+    currentY += (targetY - currentY) * ease;
+    butterfly.style.left = `${currentX}px`;
+    butterfly.style.top = `${currentY}px`;
+    requestAnimationFrame(animate);
+  };
+
+  animate();
+}
 
 function initGlobe() {
   const canvas = document.getElementById('globe-canvas');
