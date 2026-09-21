@@ -1,107 +1,109 @@
 const portfolioItems = [
   {
-    title: 'A DREAM NO.03',
-    author: '张一帆',
-    year: '2017',
-    medium: '油画',
-    category: '绘画',
-    image: 'A-dream-NO.03.JPG',
-    description: '以梦境与潜意识为线索的绘画实验，尝试将记忆中不稳定的空间转译为可感知的色彩结构。',
-    location: '个人工作室 · 西安'
-  },
-  {
-    title: 'A DREAM',
-    author: '张一帆',
-    year: '2023',
-    medium: '油画',
-    category: '绘画',
-    image: '《butterfly》03.jpg',
-    description: '以身体经验和空间记忆为起点，描绘现实与梦境交叠时的片段化感知。',
-    location: '个人工作室 · 西安'
-  },
-  {
-    title: 'BUTTERFLY',
-    author: '张一帆',
-    year: '2022',
-    medium: '油画',
-    category: '绘画',
-    image: '《蝴蝶butterfly》02.JPG',
-    description: '以蝴蝶作为关于变化与观看的隐喻，探索轻盈形体背后的心理张力。',
-    location: '西安 · 当代艺术机构'
-  },
-  {
-    title: '潜意识的边界',
-    author: '张一帆',
-    year: '2021',
-    medium: '油画',
-    category: '绘画',
-    image: '《A dream NO.01》.JPG',
-    description: '从女性主义艺术个案出发，讨论绘画中的主体经验、凝视与个人叙事。',
-    location: '个人工作室 · 西安'
-  },
-  {
-    title: '梦境切片 I',
-    author: '张一帆',
+    title: 'The Aesthetic Experience of Oil Painting and Artworks',
+    author: 'Maggie Zhang',
     year: '2020',
-    medium: '油画',
-    category: '绘画',
+    medium: 'Publication',
+    category: 'Research',
+    image: 'A-dream-NO.03.JPG',
+    description: 'Published research examining aesthetic experience, perception and the material language of oil painting.',
+    location: 'China Teachers'
+  },
+  {
+    title: 'On the Road to a Well-off Society',
+    author: 'Maggie Zhang',
+    year: '2020',
+    medium: 'National project',
+    category: 'Research',
+    image: '《butterfly》03.jpg',
+    description: 'Co-completed a national research project with Professor Liang Hongli, connecting cultural practice and social development.',
+    location: 'National research project'
+  },
+  {
+    title: 'Feminist Art: A Case Study of Frida Kahlo',
+    author: 'Maggie Zhang',
+    year: '2021',
+    medium: 'Publication',
+    category: 'Research',
+    image: '《蝴蝶butterfly》02.JPG',
+    description: 'A case study of feminist art, embodiment and the construction of artistic subjectivity.',
+    location: 'Fenghui'
+  },
+  {
+    title: 'The Expression and Influence of Dreams in Oil Painting',
+    author: 'Maggie Zhang',
+    year: '2021',
+    medium: 'Graduate thesis',
+    category: 'Research',
+    image: '《A dream NO.01》.JPG',
+    description: 'Graduate research on the visual expression of dreams and their influence on contemporary oil painting.',
+    location: 'CNKI'
+  },
+  {
+    title: 'The Road to Happiness',
+    author: 'Maggie Zhang',
+    year: '2021',
+    medium: 'Oil painting',
+    category: 'Exhibitions',
     image: '《A dream NO.02》.JPG',
-    description: '将梦中反复出现的空间切分为色块与线索，保留记忆尚未稳定的瞬间。',
-    location: '个人工作室 · 西安'
+    description: 'An oil painting published in Art Panorama, extending the artist’s research into memory, place and lived experience.',
+    location: 'Art Panorama'
   },
   {
-    title: '观看之后',
-    author: '张一帆',
+    title: 'Red Spirit · Splendid Weinan',
+    author: 'Maggie Zhang',
     year: '2019',
-    medium: '油画',
-    category: '绘画',
+    medium: 'Group exhibition',
+    category: 'Exhibitions',
     image: '《如烟》.jpg',
-    description: '关于凝视发生之后的残影研究，尝试让画面停留在可辨认与不可辨认之间。',
-    location: '个人工作室 · 西安'
+    description: 'Participated in the Red Spirit · Splendid Weinan exhibition series in Weinan, Shaanxi.',
+    location: 'Weinan, Shaanxi'
   },
   {
-    title: '隐秘花园',
-    author: '张一帆',
-    year: '2018',
-    medium: '油画',
-    category: '绘画',
+    title: 'Escape',
+    author: 'Maggie Zhang',
+    year: '2019',
+    medium: 'Oil painting',
+    category: 'Exhibitions',
     image: '《蝴蝶09》.JPG',
-    description: '以植物、身体和封闭场域构成隐秘叙事，回应个人经验中的生长与回返。',
-    location: '西安 · 工作室计划'
+    description: 'Oil painting shown in The Power of Tragedy exhibition, exploring tension between personal experience and collective memory.',
+    location: '798 Art Centre, Beijing'
   },
   {
-    title: '未命名的醒来',
-    author: '张一帆',
+    title: 'Paper-based Painting Workshop',
+    author: 'Maggie Zhang',
     year: '2018',
-    medium: '油画',
-    category: '绘画',
+    medium: 'Workshop direction',
+    category: 'Education',
     image: '《蝴蝶》04.JPG',
-    description: '记录从梦境醒来时仍未消散的视觉碎片，研究清醒状态中的潜意识回声。',
-    location: '个人工作室 · 西安'
+    description: 'Led artist Duan Zhengqu’s paper-based painting workshop during Graduate Academic Month.',
+    location: "Xi'an Academy of Fine Arts"
   },
   {
-    title: '漂浮的房间',
-    author: '张一帆',
-    year: '2017',
-    medium: '油画',
-    category: '绘画',
+    title: 'Ru Yan',
+    author: 'Maggie Zhang',
+    year: '2018',
+    medium: 'Oil painting',
+    category: 'Exhibitions',
     image: '《隐世02》.jpeg',
-    description: '以漂浮的室内结构承载关于居所、身份与不确定性的个人叙事。',
-    location: '个人工作室 · 西安'
+    description: 'Oil painting included in the 7th Plateau National Touring Exhibition.',
+    location: 'Shaanxi'
   },
   {
-    title: '梦的回声',
-    author: '张一帆',
-    year: '2016',
-    medium: '油画',
-    category: '绘画',
+    title: 'Reflexivity II · Young Artists Exhibition',
+    author: 'Maggie Zhang',
+    year: '2018',
+    medium: 'Group exhibition',
+    category: 'Exhibitions',
     image: 'A-dream-NO.07.jpg',
-    description: '早期梦境主题绘画练习，以层叠色彩和模糊边界寻找内在经验的回声。',
-    location: '西安 · 早期创作'
+    description: 'Presented oil paintings in a young artists exhibition focused on reflexivity, process and contemporary image-making.',
+    location: '798 Art District, Beijing'
   }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
+  initGlobe();
+
   // 平滑滚动 for internal links
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', (e) => {
@@ -131,31 +133,32 @@ document.addEventListener('DOMContentLoaded', () => {
   const portfolioEmpty = document.getElementById('portfolio-empty');
   const portfolioDialog = document.getElementById('portfolio-dialog');
   const portfolioDetail = document.getElementById('portfolio-detail');
-  let activeCategory = '全部';
+  if (!portfolioGrid || !portfolioFilters || !portfolioCount || !portfolioEmpty || !portfolioDialog || !portfolioDetail) return;
+  let activeCategory = 'All';
 
-  const categories = ['全部', ...new Set(portfolioItems.map(item => item.category))];
+  const categories = ['All', ...new Set(portfolioItems.map(item => item.category))];
   portfolioFilters.innerHTML = categories.map(category => `<button class="filter-btn${category === activeCategory ? ' is-active' : ''}" type="button" data-category="${category}">${category}</button>`).join('');
 
   const renderPortfolio = () => {
-    const visibleItems = activeCategory === '全部'
+    const visibleItems = activeCategory === 'All'
       ? portfolioItems
       : portfolioItems.filter(item => item.category === activeCategory);
 
     portfolioGrid.innerHTML = visibleItems.map((item, index) => `
       <article class="portfolio-card" data-index="${portfolioItems.indexOf(item)}" tabindex="0">
         <div class="portfolio-image-wrap">
-          <img class="portfolio-image" src="${item.image}" alt="${item.title}，${item.medium}作品图" loading="lazy">
+          <img class="portfolio-image" src="${item.image}" alt="${item.title}, ${item.medium}" loading="lazy">
           <span class="portfolio-category">${item.category}</span>
         </div>
         <div class="portfolio-card-body">
           <div class="portfolio-card-top"><span>${item.year}</span><span>${item.medium}</span></div>
           <h3>${item.title}</h3>
           <p>${item.description}</p>
-          <button class="text-link" type="button" data-detail="${portfolioItems.indexOf(item)}">查看详情 <span aria-hidden="true">↗</span></button>
+          <button class="text-link" type="button" data-detail="${portfolioItems.indexOf(item)}">View details <span aria-hidden="true">↗</span></button>
         </div>
       </article>
     `).join('');
-    portfolioCount.textContent = `${visibleItems.length} 件作品`;
+    portfolioCount.textContent = `${visibleItems.length} works`;
     portfolioEmpty.hidden = visibleItems.length > 0;
     bindPortfolioInteractions();
     bindPortfolioTilt();
@@ -164,12 +167,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const openPortfolioDetail = (index) => {
     const item = portfolioItems[index];
     portfolioDetail.innerHTML = `
-      <img class="dialog-image" src="${item.image}" alt="${item.title}，${item.medium}作品图">
+      <img class="dialog-image" src="${item.image}" alt="${item.title}, ${item.medium}">
       <div class="dialog-copy">
         <p class="eyebrow">${item.category} · ${item.year}</p>
         <h2>${item.title}</h2>
         <p class="dialog-description">${item.description}</p>
-        <dl class="detail-meta"><div><dt>作者</dt><dd>${item.author}</dd></div><div><dt>媒介</dt><dd>${item.medium}</dd></div><div><dt>地点 / 项目</dt><dd>${item.location}</dd></div></dl>
+        <dl class="detail-meta"><div><dt>Author</dt><dd>${item.author}</dd></div><div><dt>Format</dt><dd>${item.medium}</dd></div><div><dt>Location / Project</dt><dd>${item.location}</dd></div></dl>
       </div>
     `;
     portfolioDialog.showModal();
@@ -225,3 +228,88 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+function initGlobe() {
+  const canvas = document.getElementById('globe-canvas');
+  const globe = document.getElementById('globe');
+  if (!canvas || !globe || !window.THREE) return;
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(32, 1, 0.1, 100);
+  camera.position.z = 3.25;
+  const renderer = new THREE.WebGLRenderer({canvas, alpha: true, antialias: true});
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+  const sphere = new THREE.Group();
+  scene.add(sphere);
+  const shell = new THREE.Mesh(
+    new THREE.SphereGeometry(1.02, 48, 32),
+    new THREE.MeshBasicMaterial({color: 0x4fabe3, transparent: true, opacity: .075, wireframe: true})
+  );
+  sphere.add(shell);
+
+  const pointGeometry = new THREE.BufferGeometry();
+  const pointPositions = [];
+  const pointColors = [];
+  const markerColor = new THREE.Color(0x2b6792);
+  for (let index = 0; index < 190; index += 1) {
+    const y = 1 - (index / 189) * 2;
+    const radius = Math.sqrt(1 - y * y);
+    const theta = Math.PI * (3 - Math.sqrt(5)) * index;
+    pointPositions.push(Math.cos(theta) * radius * 1.02, y * 1.02, Math.sin(theta) * radius * 1.02);
+    pointColors.push(markerColor.r, markerColor.g, markerColor.b);
+  }
+  pointGeometry.setAttribute('position', new THREE.Float32BufferAttribute(pointPositions, 3));
+  pointGeometry.setAttribute('color', new THREE.Float32BufferAttribute(pointColors, 3));
+  sphere.add(new THREE.Points(pointGeometry, new THREE.PointsMaterial({size: .034, vertexColors: true, transparent: true, opacity: .9, sizeAttenuation: true})));
+
+  const markerGeometry = new THREE.SphereGeometry(.058, 12, 8);
+  const markerMaterial = new THREE.MeshBasicMaterial({color: 0xc96b50});
+  [[.58, .48, .66], [-.72, .24, .42], [.12, -.68, .7], [-.32, .75, -.34], [.8, -.18, -.36]].forEach(([x, y, z]) => {
+    const marker = new THREE.Mesh(markerGeometry, markerMaterial);
+    marker.position.set(x, y, z).normalize().multiplyScalar(1.05);
+    sphere.add(marker);
+  });
+
+  const resize = () => {
+    const size = Math.max(1, globe.clientWidth);
+    renderer.setSize(size, size, false);
+    camera.aspect = 1;
+    camera.updateProjectionMatrix();
+  };
+  resize();
+  window.addEventListener('resize', resize);
+
+  let dragging = false;
+  let previousX = 0;
+  let previousY = 0;
+  globe.addEventListener('pointerdown', event => {
+    dragging = true;
+    previousX = event.clientX;
+    previousY = event.clientY;
+    globe.classList.add('is-dragging');
+    globe.setPointerCapture(event.pointerId);
+  });
+  globe.addEventListener('pointermove', event => {
+    if (!dragging) return;
+    sphere.rotation.y += (event.clientX - previousX) * .008;
+    sphere.rotation.x += (event.clientY - previousY) * .008;
+    sphere.rotation.x = Math.max(-1.2, Math.min(1.2, sphere.rotation.x));
+    previousX = event.clientX;
+    previousY = event.clientY;
+  });
+  const stopDragging = event => {
+    dragging = false;
+    globe.classList.remove('is-dragging');
+    if (event.pointerId !== undefined && globe.hasPointerCapture(event.pointerId)) globe.releasePointerCapture(event.pointerId);
+  };
+  globe.addEventListener('pointerup', stopDragging);
+  globe.addEventListener('pointercancel', stopDragging);
+
+  const animate = () => {
+    if (!dragging) sphere.rotation.y += .0018;
+    renderer.render(scene, camera);
+    requestAnimationFrame(animate);
+  };
+  animate();
+}
