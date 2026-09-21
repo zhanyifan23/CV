@@ -45,7 +45,7 @@ const portfolioItems = [
     year: '2020',
     medium: '油画',
     category: '绘画',
-    image: 'A-dream-NO.07.jpg',
+    image: '《A dream NO.02》.JPG',
     description: '将梦中反复出现的空间切分为色块与线索，保留记忆尚未稳定的瞬间。',
     location: '个人工作室 · 西安'
   },
@@ -55,7 +55,7 @@ const portfolioItems = [
     year: '2019',
     medium: '油画',
     category: '绘画',
-    image: 'A-dream-NO.03.JPG',
+    image: '《如烟》.jpg',
     description: '关于凝视发生之后的残影研究，尝试让画面停留在可辨认与不可辨认之间。',
     location: '个人工作室 · 西安'
   },
@@ -65,7 +65,7 @@ const portfolioItems = [
     year: '2018',
     medium: '油画',
     category: '绘画',
-    image: '《蝴蝶butterfly》02.JPG',
+    image: '《蝴蝶09》.JPG',
     description: '以植物、身体和封闭场域构成隐秘叙事，回应个人经验中的生长与回返。',
     location: '西安 · 工作室计划'
   },
@@ -75,7 +75,7 @@ const portfolioItems = [
     year: '2018',
     medium: '油画',
     category: '绘画',
-    image: '《A dream NO.01》.JPG',
+    image: '《蝴蝶》04.JPG',
     description: '记录从梦境醒来时仍未消散的视觉碎片，研究清醒状态中的潜意识回声。',
     location: '个人工作室 · 西安'
   },
@@ -85,7 +85,7 @@ const portfolioItems = [
     year: '2017',
     medium: '油画',
     category: '绘画',
-    image: 'A-dream-NO.07.jpg',
+    image: '《隐世02》.jpeg',
     description: '以漂浮的室内结构承载关于居所、身份与不确定性的个人叙事。',
     location: '个人工作室 · 西安'
   },
@@ -95,7 +95,7 @@ const portfolioItems = [
     year: '2016',
     medium: '油画',
     category: '绘画',
-    image: '《butterfly》03.jpg',
+    image: 'A-dream-NO.07.jpg',
     description: '早期梦境主题绘画练习，以层叠色彩和模糊边界寻找内在经验的回声。',
     location: '西安 · 早期创作'
   }
