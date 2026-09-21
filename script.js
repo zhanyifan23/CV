@@ -241,8 +241,8 @@ function initButterflyFollower() {
   const ease = 0.08;
 
   document.addEventListener('mousemove', event => {
-    targetX = event.clientX - 50;
-    targetY = event.clientY - 50;
+    targetX = event.clientX - 70;
+    targetY = event.clientY - 70;
   });
 
   const animate = () => {
