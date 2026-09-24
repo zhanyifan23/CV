@@ -16,7 +16,7 @@ const portfolioItems = [
     medium: 'National project',
     category: 'Research',
     image: '《butterfly》03.jpg',
-    description: 'Co-completed a national research project with Professor Liang Hongli, connecting cultural practice and social development.',
+    description: 'Dreams blur the clear boundaries between reality and fantasy, merging the real and the unreal with disorienting colors that defy spatial logic. They restore the dreamlike and ambiguous visual experiences of confusion and ambiguity. The images no longer replicate real scenes but capture the soft and quiet moments in the subconscious, delving inward to explore the spiritual landscape where memories and illusions interweave.',
     location: 'National research project'
   },
   {
