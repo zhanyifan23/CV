@@ -45,7 +45,7 @@ const portfolioItems = [
     year: '2021',
     medium: 'Oil painting',
     category: 'Exhibitions',
-    image: '《A dream NO.02》.JPG',
+    image: '《Soft Vortex》.jpg',
     description: 'The fragrance is like smoke, and the container holds the fleeting illusions. The scene dissects the female symbols carried by the perfume with hazy language. The transparent container holds the illusory scent, and the softened form dissolves the materialized gaze.',
     location: 'Art Panorama'
   },
