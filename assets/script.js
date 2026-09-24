@@ -20,13 +20,13 @@ const portfolioItems = [
     location: 'National research project'
   },
   {
-    title: 'Feminist Art: A Case Study of Frida Kahlo',
+    title: 'Butterfly 09',
     author: 'Maggie Zhang',
     year: '2021',
     medium: 'Publication',
     category: 'Research',
     image: '《蝴蝶butterfly》02.JPG',
-    description: 'A case study of feminist art, embodiment and the construction of artistic subjectivity.',
+    description: 'Consciousness is like a butterfly, fluttering in the semi-awake interior. Fragmented color blocks blur the boundaries of reality, and the characters are lost in a trance, capturing the fleeting moments when thoughts flutter their wings and float freely.',
     location: 'Fenghui'
   },
   {
@@ -40,23 +40,23 @@ const portfolioItems = [
     location: 'CNKI'
   },
   {
-    title: 'The Road to Happiness',
+    title: 'Soft Vortex',
     author: 'Maggie Zhang',
     year: '2021',
     medium: 'Oil painting',
     category: 'Exhibitions',
     image: '《A dream NO.02》.JPG',
-    description: 'An oil painting published in Art Panorama, extending the artist’s research into memory, place and lived experience.',
+    description: 'The fragrance is like smoke, and the container holds the fleeting illusions. The scene dissects the female symbols carried by the perfume with hazy language. The transparent container holds the illusory scent, and the softened form dissolves the materialized gaze.',
     location: 'Art Panorama'
   },
   {
-    title: 'Red Spirit · Splendid Weinan',
+    title: 'Ephemeral Fume',
     author: 'Maggie Zhang',
     year: '2019',
     medium: 'Group exhibition',
     category: 'Exhibitions',
     image: '《如烟》.jpg',
-    description: 'Participated in the Red Spirit · Splendid Weinan exhibition series in Weinan, Shaanxi.',
+    description: 'The scene strips away the stereotypical imagination of female temperament in society, exploring the boundaries between self-perception, the body, and illusion in the realm of reality and fantasy.',
     location: 'Weinan, Shaanxi'
   },
   {
