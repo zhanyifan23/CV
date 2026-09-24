@@ -10,7 +10,7 @@ const portfolioItems = [
     location: 'China Teachers'
   },
   {
-    title: 'On the Road to a Well-off Society',
+    title: 'Corner of Illusion',
     author: 'Maggie Zhang',
     year: '2020',
     medium: 'National project',
