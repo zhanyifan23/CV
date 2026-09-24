@@ -1,6 +1,6 @@
 const portfolioItems = [
   {
-    title: 'The Aesthetic Experience of Oil Painting and Artworks',
+    title: 'Butterfly 06',
     author: 'Maggie Zhang',
     year: '2020',
     medium: 'Publication',
@@ -30,13 +30,13 @@ const portfolioItems = [
     location: 'Fenghui'
   },
   {
-    title: 'The Expression and Influence of Dreams in Oil Painting',
+    title: 'Blue Dream',
     author: 'Maggie Zhang',
     year: '2021',
     medium: 'Graduate thesis',
     category: 'Research',
     image: '《A dream NO.01》.JPG',
-    description: 'Graduate research on the visual expression of dreams and their influence on contemporary oil painting.',
+    description: 'The blue-violet flow surges into an abyss of consciousness, and the form dissolves among the blended color blocks. The picture strips away the concrete narrative and uses flowing colors to depict the ceaselessly flowing spiritual currents deep within the dream.',
     location: 'CNKI'
   },
   {
@@ -60,37 +60,37 @@ const portfolioItems = [
     location: 'Weinan, Shaanxi'
   },
   {
-    title: 'Escape',
+    title: 'A Dream 14',
     author: 'Maggie Zhang',
     year: '2019',
     medium: 'Oil painting',
     category: 'Exhibitions',
     image: '《蝴蝶09》.JPG',
-    description: 'Oil painting shown in The Power of Tragedy exhibition, exploring tension between personal experience and collective memory.',
+    description: 'Dreams often transform familiar everyday spaces into fantastic liminal realms. The staircase, a transitional space, is softened and distorted in the painting, with strange beings emerging within the dim corridor. Following the visual language of dream painting, it uses hazy colour layers to recreate the sense of subconscious adventure, like falling into Alice’s wonderland, releasing romantic, surreal inner emotions between reality and illusion.',
     location: '798 Art Centre, Beijing'
   },
   {
-    title: 'Paper-based Painting Workshop',
+    title: 'Butterfly 07',
     author: 'Maggie Zhang',
     year: '2018',
     medium: 'Workshop direction',
     category: 'Education',
     image: '《蝴蝶》04.JPG',
-    description: 'Led artist Duan Zhengqu’s paper-based painting workshop during Graduate Academic Month.',
+    description: 'Dreams reconstruct natural scenery. The woods shed realistic outlines and merge into a hazy fantasy amid twilight. Loose, expressive brushwork blurs object boundaries, with forest light and shadow interweaving. Using the visual language of dream painting, the work captures the bewitching atmosphere of woods in half-slumber, reflecting subtle, tranquil natural emotions within the subconscious.',
     location: "Xi'an Academy of Fine Arts"
   },
   {
-    title: 'Ru Yan',
+    title: 'Outdoor Sketching',
     author: 'Maggie Zhang',
     year: '2018',
     medium: 'Oil painting',
     category: 'Exhibitions',
     image: '《隐世02》.jpeg',
-    description: 'Oil painting included in the 7th Plateau National Touring Exhibition.',
+    description: 'Drawing inspiration from the performance of Kunqu opera musicians, the details of the characters are weakened through a hazy style. Breaking away from the realistic format of traditional opera, the gentle auditory charm of the strings and flutes is transformed into flowing colors and forms in the picture.',
     location: 'Shaanxi'
   },
   {
-    title: 'Reflexivity II · Young Artists Exhibition',
+    title: 'Soft Chant',
     author: 'Maggie Zhang',
     year: '2018',
     medium: 'Group exhibition',
