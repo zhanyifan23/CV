@@ -292,7 +292,14 @@ function initGlobe() {
 
   const markerGeometry = new THREE.SphereGeometry(.058, 12, 8);
   const markerMaterial = new THREE.MeshBasicMaterial({color: 0xc96b50});
-  [[.58, .48, .66], [-.72, .24, .42], [.12, -.68, .7], [-.32, .75, -.34], [.8, -.18, -.36]].forEach(([x, y, z]) => {
+  const hongKongLatitude = 22.3193 * Math.PI / 180;
+  const hongKongLongitude = 114.1694 * Math.PI / 180;
+  const hongKongMarker = [
+    Math.cos(hongKongLatitude) * Math.cos(hongKongLongitude),
+    Math.sin(hongKongLatitude),
+    Math.cos(hongKongLatitude) * Math.sin(hongKongLongitude)
+  ];
+  [hongKongMarker, [.58, .48, .66], [-.72, .24, .42], [.12, -.68, .7], [-.32, .75, -.34]].forEach(([x, y, z]) => {
     const marker = new THREE.Mesh(markerGeometry, markerMaterial);
     marker.position.set(x, y, z).normalize().multiplyScalar(1.05);
     sphere.add(marker);
